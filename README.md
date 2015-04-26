@@ -11,19 +11,24 @@ Building
 ------------
 For running the backend server you need to install many different python libraries mentioned below 
 
-1) Python 2.7
-2) Import nltk (http://www.nltk.org/install.html)
-    Once you install you need to download the important cmu corpused that is required for finding syllables from the word.For  further infom    ration got through the following web link
-	http://www.nltk.org/data.html
-3) Import tweepy (pip install tweepy).This is required for filtering out tweets 
-4) Import tornado (pip install tornado).This is required for creating websockets to send and receive data to html pages 
+* Python 2.7
+* Import nltk (http://www.nltk.org/install.html)
+   * Once you install you need to download the important cmu corpused that is required for finding syllables from the word.For  further inf     ormation go through the following web link
+	   *http://www.nltk.org/data.html
+* Import tweepy (pip install tweepy).This is required for filtering out tweets 
+* Import tornado (pip install tornado).This is required for creating websockets to send and receive data to html pages 
+
 
 For running Front end you need to have unity web player installed on your computer.Once you load the html page if unity web player 
 is not present it will automaticaaly asked to install if not  supported by the browser.
 
 #####Steps 
- Our application is supported for kind of browsers and all OS .But use windows and internet explorer as browser for avoiding any unknown issues.
-Execute first the python file (server_new.py) as a backend server
+ * Our application is supported for kind of browsers and all OS .But use windows and internet explorer as browser for avoiding any unknown issues.
+* Execute first the python file (Server.py) as a backend server which will also send out the 
+* For the Front End open the Build2.7.html file in the web browser.
+* Play the game using keyboard arrow key .
+* For any issue(web connection or if Haiku doesnot get displayed in the front end  ) check the backend server .
+
  
 
 
