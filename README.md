@@ -22,7 +22,9 @@ For running the backend server you need to install many different python librari
 For running Front end you need to have unity web player installed on your computer.Once you load the html page if unity web player 
 is not present it will automaticaaly asked to install if not  supported by the browser.
 
-#####Steps 
+Steps 
+----------
+
  * Our application is supported for kind of browsers and all OS .But use windows and internet explorer as browser for avoiding any unknown issues.
 * Execute first the python file (Server.py) as a backend server which will also send out the 
 * For the Front End open the Build2.7.html file in the web browser.
