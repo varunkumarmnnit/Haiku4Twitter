@@ -5,7 +5,7 @@ HaiKu4Twitter is an application which was build as an project for one of the cou
 
 How It Works
 ---------------
-It is a game in which a ball will be rolling and there are seven rotationg boxes.Each of the box is representing an emotion .The movement of the ball could be controlled by the user using the arrow key from the keyboard.When the ball hits any of the boxes then the emotion related to that box and a syllable value (5 or 7 ) is sent to backend .In the backend a  tweet is filtered out  involving that emotion and also satisfying that syllable value using the standard twitter API.Three alternative hits generate an Haiku and displayed in the FrontEnd .So this allows users to generate Haiku based on the emotion in the form of a simple game .
+It is a game in which a ball will be rolling and there are seven rotating boxes.Each of the box is representing an emotion .The movement of the ball could be controlled by the user using the arrow key from the keyboard.When the ball hits any of the boxes then the emotion related to that box and a syllable value (5 or 7 ) is sent to backend .In the backend a  tweet is filtered out  involving that emotion and also satisfying that syllable value using the standard twitter API.Three alternative hits generate an Haiku and displayed in the FrontEnd .So this allows users to generate Haiku based on the emotion in the form of a simple game .
 
 Building
 ------------
@@ -20,7 +20,7 @@ For running the backend server you need to install many different python librari
 
 
 For running Front end you need to have unity web player installed on your computer.Once you load the html page if unity web player 
-is not present it will automaticaaly asked to install if not  supported by the browser.
+is not present it will automatically  asked to install if not  supported by the browser.
 
 Steps 
 ----------
@@ -29,7 +29,7 @@ Steps
 * Execute first the python file (Server.py) as a backend server which will also send out the 
 * For the Front End open the Build2.7.html file in the web browser.
 * Play the game using keyboard arrow key .
-* For any issue(web connection or if Haiku doesnot get displayed in the front end  ) check the backend server .
+* For any issue(web connection or if Haiku does not get displayed in the front end  ) check the backend server .
 
  
 
